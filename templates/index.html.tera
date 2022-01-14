@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <title>{{blog_title}}</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>{{blog_header}}</h1>
+        </div>
+        <div class="nav_bar">
+            <ul>
+            {% for menu in menu_list %}
+                <li><a href="{{menu.url}}">{{menu.name}}</a></li>
+            {% endfor %}
+            </ul>
+            <hr />
+        </div>
+        <div class="content" id="{{content_id}}">
+            <h2>{{content_title}}</h2>
+            <p class="text">{{content_text}}</p>
+        </div>
+        <div class="footer">
+            <hr />
+            <p>Copyright &#169; 2022 sourcefox. All rights reserved.</p>
+            <p><b>Donate Monero:</b> 4ABdX34SA8m2obUWSKRmvPLpfM9UxnqXCJn7B3uATrqb2n2D5kBrP8tHETL2kuN5VbWEYVPUDukUuaFi8Ea7RbaX6cB2c42</p>
+        </div>
+    </body>
+</html>

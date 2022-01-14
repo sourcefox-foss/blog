@@ -1,0 +1,69 @@
+body {
+	color: #dfdfdf;
+	background-color: #202020;
+}
+
+div {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+h1, h2, h3, h4, b {
+	color: gray;
+}
+
+.content p.text {
+	text-align: justify;
+}
+
+p.image {
+	text-align: center;
+}
+
+img {
+	/*
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	*/
+	max-width: 1000px;
+}
+
+/*
+h1, h2, h3 {
+	margin: 0;
+	padding: 20px 0;
+}
+*/
+
+.header {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+}
+
+.nav_bar ul {
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav_bar li {
+	display: inline;
+}
+
+.nav_bar a {
+	text-decoration: none;
+}
+
+.nav_bar a:link, a:visited {
+	color: inherit;
+}
+
+.nav_bar a:hover {
+	color: violet;
+}
